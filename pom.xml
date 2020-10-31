@@ -4,7 +4,7 @@
 	<artifactId>kgraphml</artifactId>
 	<packaging>jar</packaging>
 	<name>khubla.com GraphML Library</name>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<description>khubla.com GraphML Library</description>
 	<properties>
 		<target.jvm>1.8</target.jvm>
@@ -173,6 +173,7 @@
 						<configuration>
 							<!-- <javadocExecutable>${java.home}/bin/javadoc</javadocExecutable> -->
 							<source>8</source>
+							<doclint>none</doclint>
 						</configuration>
 					</plugin>
 					<plugin>
