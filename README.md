@@ -6,6 +6,8 @@ kGraphML
 
 A Java library for rendering [GraphML](https://en.wikipedia.org/wiki/GraphML)
 
+The GraphML home page is [here](http://graphml.graphdrawing.org/)
+
 License
 -------------
 
