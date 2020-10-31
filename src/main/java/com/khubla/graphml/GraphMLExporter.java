@@ -9,7 +9,7 @@ import com.khubla.kgraphml.generated.*;
 public class GraphMLExporter {
 	public static void export(GraphmlType graphmlType, OutputStream outputStream) throws IOException, JAXBException {
 		if (null != graphmlType) {
-			final JAXBContext jc = JAXBContext.newInstance("com.khubla.graphml.generated");
+			final JAXBContext jc = JAXBContext.newInstance("com.khubla.kgraphml.generated");
 			final Marshaller marshaller = jc.createMarshaller();
 			marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
 			/*
