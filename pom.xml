@@ -15,7 +15,7 @@
 		<jaxb.api.version>3.0.2</jaxb.api.version>
 		<jaxb.core.version>3.0.2</jaxb.core.version>
 		<jaxb.runtime.version>3.0.2</jaxb.runtime.version>
-		<lombok.version>1.18.22</lombok.version>
+		<lombok.version>1.18.24</lombok.version>
 	</properties>
 	<developers>
 		<developer>
