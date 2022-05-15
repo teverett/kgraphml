@@ -19,7 +19,7 @@ Maven Coordinates
 ```
 <groupId>com.khubla.kgraphml</groupId>
 <artifactId>kgraphml</artifactId>
-<version>1.0.0</version>
+<version>1.1.0</version>
 <packaging>jar</packaging>
 ```
 
