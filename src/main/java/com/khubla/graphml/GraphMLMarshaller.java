@@ -2,9 +2,9 @@ package com.khubla.graphml;
 
 import java.io.*;
 
-import javax.xml.bind.*;
-
 import com.khubla.kgraphml.generated.*;
+
+import jakarta.xml.bind.*;
 
 public class GraphMLMarshaller {
 	private final static String PACKAGE = "com.khubla.kgraphml.generated";
