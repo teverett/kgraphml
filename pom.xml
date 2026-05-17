@@ -14,7 +14,7 @@
 		<javax.activation.version>1.2.0</javax.activation.version>
 		<jaxb.api.version>4.0.2</jaxb.api.version>
 		<jaxb.core.version>4.0.3</jaxb.core.version>
-		<jaxb.runtime.version>4.0.1</jaxb.runtime.version>
+		<jaxb.runtime.version>4.0.5</jaxb.runtime.version>
 		<lombok.version>1.18.28</lombok.version>
 	</properties>
 	<developers>
@@ -87,7 +87,7 @@
 		<dependency>
 			<groupId>com.sun.xml.bind</groupId>
 			<artifactId>jaxb-impl</artifactId>
-			<version>4.0.1</version>
+			<version>4.0.5</version>
 			<scope>runtime</scope>
 		</dependency>
 	</dependencies>
@@ -96,7 +96,7 @@
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>jaxb2-maven-plugin</artifactId>
-				<version>3.1.0</version>
+				<version>3.3.0</version>
 				<executions>
 					<execution>
 						<id>graphml</id>
@@ -153,7 +153,7 @@
 					<plugin>
 						<groupId>org.sonatype.plugins</groupId>
 						<artifactId>nexus-staging-maven-plugin</artifactId>
-						<version>1.6.13</version>
+						<version>1.7.0</version>
 						<extensions>true</extensions>
 						<configuration>
 							<serverId>ossrh</serverId>
@@ -177,7 +177,7 @@
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-javadoc-plugin</artifactId>
-						<version>3.5.0</version>
+						<version>3.11.2</version>
 						<executions>
 							<execution>
 								<id>attach-javadocs</id>
